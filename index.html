@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viola AI Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Фоновое видео -->
+    <video id="background-video" autoplay loop muted>
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Контейнер чата и терминала -->
+    <div id="content-container">
+        <!-- Левая панель для общения -->
+        <div id="chat-box" class="glass">
+            <h2>Chat with Viola AI</h2>
+            <div id="chat-window"></div>
+            <div id="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+
+        <!-- Правая панель (терминал) -->
+        <div id="terminal" class="glass">
+            <h2>Viola's Thoughts</h2>
+            <div id="terminal-window"></div>
+        </div>
+    </div>
+
+    <!-- Кнопки внизу -->
+    <div id="glass-buttons">
+        <a href="https://dexscreener.com" class="glass-button" target="_blank">dex</a>
+        <a href="https://pump.fun" class="glass-button" target="_blank">pump</a>
+        <a href="https://x.com" class="glass-button" target="_blank">x.com</a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
